@@ -5,7 +5,7 @@
 
 nav {
   position: fixed;
-  background: #000;
+  background: #302b2b88;
   width: 100vw;
   height: 5vh;
   display: -webkit-box;
@@ -21,7 +21,6 @@ nav ul {
   display: -ms-flexbox;
   display: flex;
   width: 60%;
-  background: #886688;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
@@ -40,4 +39,58 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
+  display: inline-block;
+  color: #fff;
+  padding: 15px;
+}
+
+nav ul li:hover {
+  background: #035f1f;
+}
+
+nav ul li:hover a {
+  color: #000;
+}
+
+header {
+  height: 55vw;
+  background-image: url("../img/sunset.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+header h1 {
+  position: relative;
+  top: 7vh;
+  left: 7vw;
+}
+
+header h3 {
+  position: relative;
+  top: 3vw;
+  left: 3vw;
+}
+
+.bienvenida {
+  padding: 80px;
+}
+
+.bienvenida h2 {
+  color: #489157;
+}
+
+.cursos {
+  padding: 80px;
+}
+
+.cursos h2 {
+  color: #489157;
+}
+
+.noticias {
+  padding: 80px;
+}
+
+.noticias h2 {
+  color: #489157;
 }

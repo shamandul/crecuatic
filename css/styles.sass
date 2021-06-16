@@ -1,9 +1,13 @@
-$color-fondo-nav: #000
+$color-fondo-nav: #302b2b88
+$color-texto-nav: #fff
+$color-texto-nav-hover: #000
+$color-fondo-nav-hover: #035f1f
+$color-texto-h2: #489157
 
 *
   margin: 0
   padding: 0
-
+// nav
 nav
   position: fixed
   background: $color-fondo-nav
@@ -14,12 +18,53 @@ nav
   ul
     display: flex
     width: 60%
-    background: #886688
     flex-direction: row
     flex-wrap: wrap
     justify-content: space-around
     align-content: center
+
     li
       list-style: none
       a
         text-decoration: none
+        display: inline-block
+        color: $color-texto-nav
+        padding: 15px
+      &:hover
+
+        background: $color-fondo-nav-hover
+        a
+          color: $color-texto-nav-hover
+
+// header
+header
+  height: 55vw
+  background-image: url("../img/sunset.jpg")
+  background-repeat: no-repeat
+  background-size: 100% 100%
+  h1
+    position: relative
+    top: 7vh
+    left: 7vw
+  h3
+    position: relative
+    top: 3vw
+    left: 3vw
+
+// bienvenidos
+.bienvenida
+  padding: 80px
+  h2
+    color: $color-texto-h2
+
+// cursos
+.cursos
+  padding: 80px
+  h2
+    color: $color-texto-h2
+
+// noticias
+.noticias
+  padding: 80px
+  h2
+    color: $color-texto-h2
