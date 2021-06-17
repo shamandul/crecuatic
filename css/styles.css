@@ -71,26 +71,68 @@ header h3 {
   left: 3vw;
 }
 
-.bienvenida {
+.seccion {
   padding: 80px;
 }
 
-.bienvenida h2 {
+.seccion h2 {
   color: #489157;
 }
 
-.cursos {
-  padding: 80px;
+.img-formacion {
+  height: 55vw;
+  background-image: url("../img/aula.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
-.cursos h2 {
-  color: #489157;
+.img-formacion h1 {
+  position: relative;
+  top: 10vh;
+  left: 8vw;
 }
 
-.noticias {
-  padding: 80px;
+.img-formacion h3 {
+  position: relative;
+  top: 5vw;
+  left: 12.4vw;
 }
 
-.noticias h2 {
-  color: #489157;
+.img-servicios {
+  height: 55vw;
+  background-image: url("../img/playa.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.img-servicios h1 {
+  position: relative;
+  top: 40vh;
+  left: 52vw;
+}
+
+.img-servicios h3 {
+  position: relative;
+  top: 22vw;
+  left: 57vw;
+}
+
+.img-nosotros {
+  height: 55vw;
+  background-image: url("../img/pez-sierra.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: #c0cebf;
+}
+
+.img-nosotros h1 {
+  position: relative;
+  top: 12vh;
+  left: 40vw;
+}
+
+.img-nosotros h3 {
+  position: relative;
+  top: 6.5vw;
+  left: 42vw;
 }
